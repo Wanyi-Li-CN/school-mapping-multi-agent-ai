@@ -9,9 +9,9 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 高德地图API配置
-AMAP_KEY = "9d74a3d3a61d18e84cf2960ca567dcbb"
-AMAP_POI_URL = "https://restapi.amap.com/v3/place/text"
-AMAP_ROUTE_URL = "https://restapi.amap.com/v3/direction/driving"
+AMAP_KEY = "AMAP_KEY"
+AMAP_POI_URL = "AMAP_KEY"
+AMAP_ROUTE_URL = "AMAP_KEY"
 
 def get_location_by_poi(keywords, city="潮州市"):
     """使用高德地图POI搜索API获取位置信息"""
